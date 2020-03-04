@@ -1,0 +1,13 @@
+<div class="col-md-12">
+  <form [formGroup]="userForm" (ngSubmit)="submitFormEvent.emit(userForm.value)" novalidate>
+    <mat-form-field class="example-full-width">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="Email" formControlName="email">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Password</mat-label>
+      <input matInput placeholder="Password" formControlName="password" type="password">
+    </mat-form-field>
+    <button type="submit" mat-raised-button>{{submitButtonText}}</button>
+  </form>
+</div>

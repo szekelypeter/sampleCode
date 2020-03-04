@@ -1,0 +1,7 @@
+<mat-card>
+
+  <app-user (submitFormEvent)="submitForm($event)"
+            [userForm]="registerForm" [submitButtonText]="'Register'"></app-user>
+
+  <button mat-raised-button (click)="goToLogin()">Login</button>
+</mat-card>

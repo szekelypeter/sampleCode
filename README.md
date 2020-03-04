@@ -1,27 +1,43 @@
-# SapmleCodeFromMe
+#Sample code
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
+This is a sample code, which will evolve by the time. Worked time on it `8 hour`
 
-## Development server
+#Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+For this page to run, you need npm, and node.js on your computer
 
-## Code scaffolding
+#Easy setup
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+After you get npm, and node, you just need the command:
 
-## Build
+`npm install`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+What until the npm is finished then you can start the application
 
-## Running unit tests
+#Start
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To start the application you need to start the servers and the application.
+For that you need the next 3 npm script in this order.
 
-## Running end-to-end tests
+`npm run login-server`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`npm run backend-server`
 
-## Further help
+`npm start`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+With these steps the mock login backend is available at port `localhost:3001`
+
+The backend at port `localhost:3000`
+
+And the application on port `localhost:4200`
+
+The application stores the backend data, such as login and issue, in the json files in the backend folder. For the first time to login you need to register.
+
+#Future
+
+The style will be better. So much better.
+
+Redux will be built in.
+
+It will develop with me.
+

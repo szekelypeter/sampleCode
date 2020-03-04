@@ -1,0 +1,21 @@
+<div class="container wrapper wrapper2">
+  <div class="row">
+
+    <!-- Form -->
+    <div class="col-md-12">
+      <h3>Add Issue</h3>
+      <form [formGroup]="updateIssueForm" (ngSubmit)="submitForm()" novalidate>
+        <mat-form-field class="example-full-width">
+          <mat-label>Issue Name</mat-label>
+          <input matInput placeholder="Issue Name" formControlName="issueName">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Issue Message</mat-label>
+          <input matInput placeholder="Issue Detail" formControlName="issueMessage">
+        </mat-form-field>
+        <button type="submit" mat-raised-button>Update</button>
+      </form>
+    </div>
+
+  </div>
+</div>

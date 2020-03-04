@@ -1,0 +1,12 @@
+.mat-card {
+  width: 50%;
+  min-width: 500px;
+  margin: 100px auto auto;
+}
+.mat-card-title {
+  text-align: center;
+}
+.mat-button {
+  margin: 10px auto auto;
+  display: block;
+}
